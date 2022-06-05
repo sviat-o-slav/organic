@@ -110,7 +110,7 @@
                     <span class="rating"><img src="images/stars.svg" alt="Five stars rating"></span>
                 </p>
             </div>
-            
+
             <div class="card-product">
                 <h2>Dried Pistachio</h2>
                 <h3>Mill</h3>
@@ -159,6 +159,52 @@
                 </p>
             </div>
 
+        </div>
+    </section>
+
+    <section class="customer-feedback">
+        <div class="customer-info">
+            <h2>Testimonial</h2>
+            <h3>What our customer saying?</h3>
+            <img class="customer-avatar" src="images/avatar.jpg" alt="Customer avatar">
+            <span class="customer-rating"><img src="images/stars.svg" alt="Five stars rating"></span>
+            <p class="customer-text">The quality of organic produce is extremely high, the service is second to none and
+                the taste of the
+                food<br>takes me back to my childhood when we were growing our own.</p>
+            <p class="customer-name">Sara Taylor</p>
+            <p class="customer-rank">Consumer</p>
+
+            <div class="customer-splitter"></div>
+        </div>
+
+        <div class="customer-awards">
+            <div class="customer-award-card">
+                <div class="customer-award-wrapper">
+                    <h2>Organic</h2>
+                    <p>100%</p>
+                </div>
+            </div>
+
+            <div class="customer-award-card">
+                <div class="customer-award-wrapper">
+                    <h2>Active product</h2>
+                    <p>285</p>
+                </div>
+            </div>
+
+            <div class="customer-award-card">
+                <div class="customer-award-wrapper">
+                    <h2>Organic Orchads</h2>
+                    <p>385+</p>
+                </div>
+            </div>
+
+            <div class="customer-award-card">
+                <div class="customer-award-wrapper">
+                    <h2>Years of farming</h2>
+                    <p>25+</p>
+                </div>
+            </div>
         </div>
     </section>
 </body>
