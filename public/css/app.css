@@ -2,6 +2,10 @@
   font-family: "Roboto";
   src: url(/fonts/Roboto-Regular.ttf?fc2b5060f7accec5cf74437196c1b027) format("truetype");
 }
+@font-face {
+  font-family: "Yellowtail";
+  src: url(/fonts/Yellowtail-Regular.ttf?68015177cbf9575be4a4bd10b136822b) format("truetype");
+}
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -38,6 +42,7 @@ body {
   letter-spacing: 0.36px;
   color: #274C5B;
   padding: 20px;
+  text-transform: capitalize;
 }
 
 .nav-main-item-active a {
@@ -77,4 +82,131 @@ body {
   background-color: #274C5B;
   color: white;
   padding: 0 10px;
+}
+
+.greetings {
+  display: flex;
+  align-items: center;
+  background-image: url(/images/first.jpg?a12998d5d08b5d256f7b15172c86d386);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+  background-color: #F2F0F1;
+}
+.greetings h2 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #7EB693;
+  margin: 0;
+  margin-top: 220px;
+}
+.greetings p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 84px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+  margin: 0;
+  margin-top: 15px;
+}
+.greetings a {
+  display: inline-flex;
+  background-color: #EFD372;
+  border-radius: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274C5B;
+  padding: 25px 30px;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-bottom: 250px;
+}
+.greetings a > span {
+  display: block;
+  width: 38px;
+  height: 34px;
+  background-color: #335B6B;
+  background-image: url(/images/arrow-right.svg?119138b35c138a00e0a5b80f2815457c);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.card-list {
+  display: flex;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  margin: 140px 0;
+}
+
+.card-item {
+  background: #D4D4D4;
+  border-radius: 30px;
+  flex-grow: 1;
+  padding: 105px 55px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 665px;
+}
+
+.card-fruits {
+  background: url(/images/fruits.jpg?3b733fdece77cb9605f844dd046bff87) no-repeat;
+}
+.card-fruits h2 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: #FFFFFF;
+  margin: 0;
+}
+.card-fruits p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.36px;
+  color: #FFFFFF;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.card-vegetables {
+  background: url(/images/vegetables.jpg?bcc77100a2abbb1648f9e2142ae51d3c) no-repeat;
+}
+.card-vegetables h2 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: #7EB693;
+  margin: 0;
+}
+.card-vegetables p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+  margin: 0;
 }
