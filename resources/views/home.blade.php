@@ -80,6 +80,87 @@
             </div>
         </div>
     </section>
+
+    <section class="container-content products-block">
+        <h2>Organic</h2>
+        <h3>Our products</h3>
+
+        <div class="cards-grid">
+
+            <div class="card-product">
+                <h2>Calabrese broccoli</h2>
+                <h3>Vegetable</h3>
+                <img src="images/broccoli.png" alt="Calabrese broccoli">
+
+                <p class="price">
+                    <span class="price-old">$ 25.00 USD</span>
+                    <span class="price-new">$ 21.00 USD</span>
+                    <span class="rating"><img src="images/stars.svg" alt="Five stars rating"></span>
+                </p>
+            </div>
+
+            <div class="card-product">
+                <h2>Fresh corn</h2>
+                <h3>Vegetable</h3>
+                <img src="images/corn.png" alt="Fresh corn">
+
+                <p class="price">
+                    <span class="price-old">$ 21.23 USD</span>
+                    <span class="price-new">$ 18.00 USD</span>
+                    <span class="rating"><img src="images/stars.svg" alt="Five stars rating"></span>
+                </p>
+            </div>
+            
+            <div class="card-product">
+                <h2>Dried Pistachio</h2>
+                <h3>Mill</h3>
+                <img src="images/pistachio.png" alt="Dried Pistachio">
+
+                <p class="price">
+                    <span class="price-old">$ 61.00 USD</span>
+                    <span class="price-new">$ 48.00 USD</span>
+                    <span class="rating"><img src="images/stars.svg" alt="Five stars rating"></span>
+                </p>
+            </div>
+
+            <div class="card-product">
+                <h2>Vegan Red Tomato</h2>
+                <h3>Vegetable</h3>
+                <img src="images/tomato.png" alt="Vegan Red Tomato">
+
+                <p class="price">
+                    <span class="price-old">$ 14.00 USD</span>
+                    <span class="price-new">$ 9.37 USD</span>
+                    <span class="rating"><img src="images/stars.svg" alt="Five stars rating"></span>
+                </p>
+            </div>
+
+            <div class="card-product">
+                <h2>Organic Almonds</h2>
+                <h3>Fruits</h3>
+                <img src="images/almonds.png" alt="Organic Almonds">
+
+                <p class="price">
+                    <span class="price-old">$ 21.00 USD</span>
+                    <span class="price-new">$ 18.00 USD</span>
+                    <span class="rating"><img src="images/stars.svg" alt="Five stars rating"></span>
+                </p>
+            </div>
+
+            <div class="card-product">
+                <h2>Brown Hazelnut</h2>
+                <h3>Mill</h3>
+                <img src="images/nuts.png" alt="Brown Hazelnut">
+
+                <p class="price">
+                    <span class="price-old">$ 43.00 USD</span>
+                    <span class="price-new">$ 34.00 USD</span>
+                    <span class="rating"><img src="images/stars.svg" alt="Five stars rating"></span>
+                </p>
+            </div>
+
+        </div>
+    </section>
 </body>
 
 </html>
