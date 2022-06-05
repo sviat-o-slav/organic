@@ -47,7 +47,39 @@
         </div>
     </section>
 
-    
+    <section class="about-us-block">
+        <div class="container-content">
+            <div class="container-about-us">
+                <div>
+                    <img src="images/citrus.png" alt="Fresh citrus fruits">
+                </div>
+
+
+                <div class="about-us-info">
+                    <h2>About us</h2>
+                    <h3>We believe in organic<br>foods for strong health</h3>
+                    <p>Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have
+                        grown on the principles of health, and care. We aim to give our customers a healthy
+                        chemical-free
+                        meal for perfect nutrition.</p>
+
+                    <dl>
+                        <dt><span class="organic-ico"></span>Organic foods only</dt>
+                        <dd>The Product that you ordered will be verified that we have or not if have we will start to
+                            move
+                            on with the next step.</dd>
+
+                        <dt><span class="quality-ico"></span>Quality standards</dt>
+                        <dd>Once your product is packed it will be delivered to your nearby locality you can directly
+                            visit
+                            the to buy the product.</dd>
+                    </dl>
+
+                    <a href="#">Shop now<span></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
