@@ -207,6 +207,80 @@
             </div>
         </div>
     </section>
+
+    <section class="offer-block">
+        <div class="container-content offer-block-container">
+            <div class="offer-header">
+                <div class="offer-header-title">
+                    <h2>Offer products</h2>
+                    <p>We offer organic for you</p>
+                </div>
+
+                <a href="#">View all products<span></span></a>
+            </div>
+
+            <div class="cards-grid">
+                <div class="card-product">
+                    <h2>Vegan Red Tomato</h2>
+                    <h3>Vegetable</h3>
+                    <img src="images/tomato.png" alt="Vegan Red Tomato">
+
+                    <p class="price">
+                        <span class="price-old">$ 14.00 USD</span>
+                        <span class="price-new">$ 9.37 USD</span>
+                        <span class="rating"><img src="images/stars.svg" alt="Five stars rating"></span>
+                    </p>
+                </div>
+
+                <div class="card-product">
+                    <h2>Organic Almonds</h2>
+                    <h3>Fruits</h3>
+                    <img src="images/almonds.png" alt="Organic Almonds">
+
+                    <p class="price">
+                        <span class="price-old">$ 21.00 USD</span>
+                        <span class="price-new">$ 18.00 USD</span>
+                        <span class="rating"><img src="images/stars.svg" alt="Five stars rating"></span>
+                    </p>
+                </div>
+
+                <div class="card-product">
+                    <h2>Fresh corn</h2>
+                    <h3>Vegetable</h3>
+                    <img src="images/corn.png" alt="Fresh corn">
+
+                    <p class="price">
+                        <span class="price-old">$ 21.23 USD</span>
+                        <span class="price-new">$ 18.00 USD</span>
+                        <span class="rating"><img src="images/stars.svg" alt="Five stars rating"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="eco-friendly-block">
+        <div class="eco-friendly-image"></div>
+
+        <div class="eco-friendly-info-block">
+            <div class="eco-friendly-info">
+                <h2>Eco friendly</h2>
+                <h3>From our farm<br>to your home.</h3>
+
+                <h4>Choose Your Products</h4>
+                <p>In our listing, we have several collections of organic products. This is the place where you need to
+                    choose the product you want.</p>
+
+                <h4>Farmers will produce it</h4>
+                <p>The Product that you ordered will be verified that we have or not if have we will start to move on
+                    with the next step.</p>
+
+                <h4>We Can Delivery too</h4>
+                <p>If you are not comfortable going to the nearby market place we also will deliver your product to your
+                    doorstep.</p>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

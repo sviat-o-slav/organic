@@ -497,12 +497,13 @@ body {
     background-image: url("../images/customer-left.png"), url("../images/customer-right.png");
     background-position: left top, right top;
     background-repeat: no-repeat, no-repeat;
-    height: 1250px;
     background-color: #FCFCFC;
     background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 130px;
+    padding-bottom: 150px;
 }
 
 .customer-info {
@@ -647,3 +648,153 @@ body {
         }
     }
 }
+
+.offer-block {
+    background-color: #274C5B;
+
+    .offer-block-container {
+        padding-bottom: 140px;
+        padding-top: 140px;
+    }
+}
+
+.offer-header {
+    display: flex;
+    justify-content: space-between;
+
+    .offer-header-title {
+        h2 {
+            font-family: 'Yellowtail';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 65px;
+            letter-spacing: 0.36px;
+            text-transform: capitalize;
+            color: #7EB693;
+            margin: 0;
+        }
+
+        p {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 45px;
+            line-height: 58px;
+            letter-spacing: 0.36px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            margin: 0;
+        }
+    }
+
+    a {
+        display: inline-flex;
+        background-color: #EFD372;
+        border-radius: 16px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 32px;
+        letter-spacing: 0.36px;
+        text-transform: capitalize;
+        color: #274C5B;
+        padding: 25px 30px;
+        text-decoration: none;
+        margin-top: 30px;
+        margin-bottom: 40px;
+
+        &>span {
+            display: block;
+            width: 38px;
+            height: 34px;
+            background-color: #335B6B;
+            background-image: url("../images/arrow-right.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+            margin-left: 20px;
+        }
+    }
+}
+
+
+
+
+
+
+.eco-friendly-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .eco-friendly-image {
+        background-image: url("../images/plants.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .eco-friendly-info-block {
+        display: flex;
+        align-items: center;
+
+        .eco-friendly-info {
+            position: relative;
+            left: -60px;
+            background-color: white;
+            padding: 40px 60px;
+            margin: 40px 0;
+            border-radius: 30px 0px 0px 30px;
+
+            h2 {
+                font-family: 'Yellowtail';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 65px;
+                letter-spacing: 0.36px;
+                text-transform: capitalize;
+                color: #7EB693;
+                margin: 0;
+            }
+
+            h3 {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 44px;
+                line-height: 58px;
+                letter-spacing: 0.36px;
+                text-transform: capitalize;
+                color: #274C5B;
+                margin: 0;
+                margin-bottom: 15px;
+            }
+
+            h4 {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 23px;
+                line-height: 32px;
+                letter-spacing: 0.36px;
+                text-transform: capitalize;
+                color: #274C5B;
+                margin: 0;
+                margin-top: 15px;
+            }
+
+            p {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 32px;
+                letter-spacing: 0.36px;
+                color: #525C60;
+                margin: 0;
+            }
+        }
+    }
+}
+

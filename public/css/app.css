@@ -456,12 +456,13 @@ body {
   background-image: url(/images/customer-left.png?558cdbd0ed86eae5fbfd6638c0fcae16), url(/images/customer-right.png?158bf9a2d42074e5a987e8f58c7ae194);
   background-position: left top, right top;
   background-repeat: no-repeat, no-repeat;
-  height: 1250px;
   background-color: #FCFCFC;
   background-size: contain;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 130px;
+  padding-bottom: 150px;
 }
 
 .customer-info {
@@ -600,4 +601,134 @@ body {
   text-align: center;
   letter-spacing: 0.36px;
   color: #274C5B;
+}
+
+.offer-block {
+  background-color: #274C5B;
+}
+.offer-block .offer-block-container {
+  padding-bottom: 140px;
+  padding-top: 140px;
+}
+
+.offer-header {
+  display: flex;
+  justify-content: space-between;
+}
+.offer-header .offer-header-title h2 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #7EB693;
+  margin: 0;
+}
+.offer-header .offer-header-title p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 58px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin: 0;
+}
+.offer-header a {
+  display: inline-flex;
+  background-color: #EFD372;
+  border-radius: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274C5B;
+  padding: 25px 30px;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.offer-header a > span {
+  display: block;
+  width: 38px;
+  height: 34px;
+  background-color: #335B6B;
+  background-image: url(/images/arrow-right.svg?119138b35c138a00e0a5b80f2815457c);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.eco-friendly-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.eco-friendly-block .eco-friendly-image {
+  background-image: url(/images/plants.jpg?d383470fcccd021d2307f5ae7c3f9233);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.eco-friendly-block .eco-friendly-info-block {
+  display: flex;
+  align-items: center;
+}
+.eco-friendly-block .eco-friendly-info-block .eco-friendly-info {
+  position: relative;
+  left: -60px;
+  background-color: white;
+  padding: 40px 60px;
+  margin: 40px 0;
+  border-radius: 30px 0px 0px 30px;
+}
+.eco-friendly-block .eco-friendly-info-block .eco-friendly-info h2 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #7EB693;
+  margin: 0;
+}
+.eco-friendly-block .eco-friendly-info-block .eco-friendly-info h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 58px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274C5B;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.eco-friendly-block .eco-friendly-info-block .eco-friendly-info h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274C5B;
+  margin: 0;
+  margin-top: 15px;
+}
+.eco-friendly-block .eco-friendly-info-block .eco-friendly-info p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  color: #525C60;
+  margin: 0;
 }
