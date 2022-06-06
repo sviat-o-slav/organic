@@ -332,7 +332,16 @@
         </div>
     </section>
 
-    
+    <section class="container-content">
+        <div class="subscribe-block">
+            <h2>Subscribe our<br>newsletter</h2>
+
+            <form class="subscribe-form">
+                <input type="email" placeholder="Enter your email address" require>
+                <button type="submit">Subscribe<span></span></button>
+            </form>
+        </div>
+    </section>
 </body>
 
 </html>

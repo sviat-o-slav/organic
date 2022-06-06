@@ -760,7 +760,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #335B6B;
   min-height: 560px;
 }
 .food-type-block .food-type-card a {
@@ -781,12 +780,15 @@ body {
 }
 .food-type-block .card-juice {
   background: url(/images/juice.jpg?622bb0d78d0ef3a7ee64751874318559) no-repeat;
+  background-size: cover;
 }
 .food-type-block .card-food {
   background: url(/images/food.jpg?1fdabeb50ca7d5d90c2d1b1ce4022b92) no-repeat;
+  background-size: cover;
 }
 .food-type-block .card-cookies {
   background: url(/images/cookies.jpg?1e270ed34376389730d5f46ace56280d) no-repeat;
+  background-size: cover;
 }
 
 .news-block {
@@ -950,4 +952,68 @@ body {
   background-size: 60%;
   border-radius: 50%;
   margin-left: 20px;
+}
+
+.subscribe-block {
+  display: flex;
+  background: url(/images/oranges.jpg?36218428c85ea01d45c58ec5148b72bf) no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  padding: 100px 70px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.subscribe-block h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.subscribe-form input {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.36px;
+  color: #525C60;
+  padding: 25px 30px;
+  border: 1px solid #CCCCCC;
+  border-radius: 16px;
+}
+.subscribe-form button {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.36px;
+  color: #FFFFFF;
+  padding: 25px 35px;
+  background: #274C5B;
+  border: 1px solid #274C5B;
+  border-radius: 16px;
+  cursor: pointer;
+  display: inline-flex;
+}
+.subscribe-form button > span {
+  background: url(/images/arrow-right.svg?119138b35c138a00e0a5b80f2815457c) no-repeat center;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-left: 10px;
+  background-color: #335B6B;
+}
+
+a:hover, button:hover {
+  opacity: 0.6;
 }

@@ -824,7 +824,6 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #335B6B;
         min-height: 560px;
 
         a {
@@ -847,14 +846,17 @@ body {
 
     .card-juice {
         background: url("../images/juice.jpg") no-repeat;
+        background-size: cover;
     }
 
     .card-food {
         background: url("../images/food.jpg") no-repeat;
+        background-size: cover;
     }
 
     .card-cookies {
         background: url("../images/cookies.jpg") no-repeat;
+        background-size: cover;
     }
 }
 
@@ -1034,5 +1036,92 @@ body {
             border-radius: 50%;
             margin-left: 20px;
         }
+    }
+}
+
+.subscribe-block {
+    display: flex;
+    background: url("../images/oranges.jpg") no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    padding: 100px 70px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+
+    h2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+        letter-spacing: 0.36px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.subscribe-form {
+    input {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        letter-spacing: 0.36px;
+        color: #525C60;
+        padding: 25px 30px;
+        border: 1px solid #CCCCCC;
+        border-radius: 16px;
+    }
+
+    button {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 29px;
+        letter-spacing: 0.36px;
+        color: #FFFFFF;
+        padding: 25px 35px;
+        background: #274C5B;
+        border: 1px solid #274C5B;
+        border-radius: 16px;
+        cursor: pointer;
+        display: inline-flex;
+
+        &>span {
+            background: url("../images/arrow-right.svg") no-repeat center;
+            display: block;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            margin-left: 10px;
+            background-color: #335B6B;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a, button {
+    &:hover {
+        opacity: 0.6;
     }
 }
