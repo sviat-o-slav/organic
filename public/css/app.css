@@ -453,7 +453,7 @@ body {
 }
 
 .customer-feedback {
-  background-image: url(/images/customer-left.png?081031ddd5e53e0687ea97cd360d7169), url(/images/customer-right.png?8989a28efd4a831456e2b7362ea297a2);
+  background-image: url(/images/customer-left.png?558cdbd0ed86eae5fbfd6638c0fcae16), url(/images/customer-right.png?158bf9a2d42074e5a987e8f58c7ae194);
   background-position: left top, right top;
   background-repeat: no-repeat, no-repeat;
   height: 1250px;
