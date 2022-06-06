@@ -6,6 +6,20 @@
   font-family: "Yellowtail";
   src: url(/fonts/Yellowtail-Regular.ttf?68015177cbf9575be4a4bd10b136822b) format("truetype");
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -731,4 +745,46 @@ body {
   letter-spacing: 0.36px;
   color: #525C60;
   margin: 0;
+}
+
+.food-type-block {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  background-color: #EFF6F1;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.food-type-block .food-type-card {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #335B6B;
+  min-height: 560px;
+}
+.food-type-block .food-type-card a {
+  display: block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+  padding: 30px 80px;
+  text-decoration: none;
+  background-color: white;
+  text-transform: capitalize;
+  border-radius: 20px;
+}
+.food-type-block .card-juice {
+  background: url(/images/juice.jpg?622bb0d78d0ef3a7ee64751874318559) no-repeat;
+}
+.food-type-block .card-food {
+  background: url(/images/food.jpg?1fdabeb50ca7d5d90c2d1b1ce4022b92) no-repeat;
+}
+.food-type-block .card-cookies {
+  background: url(/images/cookies.jpg?1e270ed34376389730d5f46ace56280d) no-repeat;
 }

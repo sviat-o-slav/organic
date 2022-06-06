@@ -281,6 +281,56 @@
             </div>
         </div>
     </section>
+
+    <section class="food-type-block">
+        <div class="food-type-card card-juice">
+            <h3 class="visually-hidden">Fruit juice</h3>
+            <a href="#">Fruit juice</a>
+        </div>
+
+        <div class="food-type-card card-food">
+            <h3 class="visually-hidden">Organic food</h3>
+            <a href="#">Organic food</a>
+        </div>
+
+        <div class="food-type-card card-cookies">
+            <h3 class="visually-hidden">Nuts cookies</h3>
+            <a href="#">Nuts cookies</a>
+        </div>
+    </section>
+
+    <section class="news-block">
+        <div class="container-content">
+            <div class="news-block-header">
+                <div class="news-block-header-text">
+                    <h2>News</h2>
+                    <p>Discover The recent content about organic products</p>
+                </div>
+
+                <a href="#">More news<span></span></a>
+            </div>
+
+            <div class="news-block-grid">
+                <div class="news-block-card news-bg-greens">
+                    <div class="news-card-inner">
+                        <h2>Everything You Need to Know About Organic</h2>
+                        <p class="news-author"><span></span>Kristina Castle</p>
+                        <p>Organic farming is the only way that you still can experience the real world.</p>
+                        <a href="">View more<span></span></a>
+                    </div>
+                </div>
+
+                <div class="news-block-card news-bg-tomato">
+                    <div class="news-card-inner">
+                        <h2>Organic Fruits: Surprising Benefits and Facts</h2>
+                        <p class="news-author"><span></span>Alex Louis</p>
+                        <p>The world of nature has grown on the principles of health, ecology, and care.</p>
+                        <a href="">View more<span></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
