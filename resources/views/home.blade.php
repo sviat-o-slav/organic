@@ -337,7 +337,7 @@
             <h2>Subscribe our<br>newsletter</h2>
 
             <form class="subscribe-form">
-                <input type="email" placeholder="Enter your email address" require>
+                <input type="email" placeholder="Enter your email address" required>
                 <button type="submit">Subscribe<span></span></button>
             </form>
         </div>
@@ -362,7 +362,7 @@
             <div class="footer-social">
                 <a href="#"><img src="images/logo.svg" alt="Organic site logo"></a>
                 <p>We are a popular and farming company aspiring to be a leader in the Organic food industry.</p>
-                
+
                 <div class="footer-social-icons">
                     <a class="footer-social-icon" href="#"><img src="images/fb.svg" alt="Facebook icon social"></a>
                     <a class="footer-social-icon" href="#"><img src="images/tw.svg" alt="Twitter icon social"></a>
@@ -381,9 +381,9 @@
             </div>
         </section>
 
-        <section class="footer-copyright">
+        <div class="footer-copyright">
             <p>Copyright © Organic | Designed by VictorFlow - Powered by Webflow</p>
-        </section>
+        </div>
     </footer>
 </body>
 
