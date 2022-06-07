@@ -2,11 +2,12 @@ FILE_WEBPACK=webpack.mix.js
 
 install-common:
 	cp .env.example .env
-	php artisan key:generate
 
 install-dev: install-common resources-dev sail-install webpack
+	php artisan key:generate
 
 install-prod: install-common resources-prod
+	php artisan key:generate
 
 webpack:
 	echo "const mix = require('laravel-mix');" | tee $(FILE_WEBPACK) > /dev/null
