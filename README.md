@@ -7,12 +7,16 @@ It is created with Laravel engine.
 - Laravel 9.1
 - Apache or Nginx
 - MariaDB 10
+- Composer 2.2.*
+- NPM 8.5.*
 ### Requirements for develop
 Project is constructed under Ubuntu 22.04 with Docker environment.
 - Ubuntu 22.04
 - PHP 8.1
 - Docker 20.10.*
 - Docker-Compose 1.29.*
+- Composer 2.2.*
+- NPM 8.5.*
 Also you can develop without Sail environment so you don't need a docker, but you need local web server like Apache or use a built-in Artisan server.
 ## Deploy by Makefile
 If you want to make a production deploy use make file command:
