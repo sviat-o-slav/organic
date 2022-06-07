@@ -342,6 +342,49 @@
             </form>
         </div>
     </section>
+
+    <footer class="footer">
+        <section class="footer-grid container-content">
+            <div class="footer-contacts">
+                <h2>Contact us</h2>
+                <dl>
+                    <dt>Email</dt>
+                    <dd>needhelp@organic.com</dd>
+
+                    <dt>Phone</dt>
+                    <dd>123(1254)1452</dd>
+
+                    <dt>Address</dt>
+                    <dd>88 Road, Brooklyn Street, USA</dd>
+                </dl>
+            </div>
+
+            <div class="footer-social">
+                <a href="#"><img src="images/logo.svg" alt="Organic site logo"></a>
+                <p>We are a popular and farming company aspiring to be a leader in the Organic food industry.</p>
+                
+                <div class="footer-social-icons">
+                    <a class="footer-social-icon" href="#"><img src="images/fb.svg" alt="Facebook icon social"></a>
+                    <a class="footer-social-icon" href="#"><img src="images/tw.svg" alt="Twitter icon social"></a>
+                    <a class="footer-social-icon" href="#"><img src="images/ig.svg" alt="Instagram icon social"></a>
+                    <a class="footer-social-icon" href="#"><img src="images/pt.svg" alt="Pinterest social icon"></a>
+                </div>
+            </div>
+
+            <div class="footer-utility">
+                <h2>Utility pages</h2>
+                <a href="#">Style guide</a>
+                <a href="#">Protected</a>
+                <a href="#">Page not found</a>
+                <a href="#">Changelog</a>
+                <a href="#">Licenses</a>
+            </div>
+        </section>
+
+        <section class="footer-copyright">
+            <p>Copyright © Organic | Designed by VictorFlow - Powered by Webflow</p>
+        </section>
+    </footer>
 </body>
 
 </html>
